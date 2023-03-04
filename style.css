@@ -1,0 +1,203 @@
+#parent {
+    width: 1520px;
+    height: 3000px;
+    background-color: rgb(5, 5, 5);
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+}
+
+.d1 {
+    width: 1520px;
+    height: 75px;
+    background-color: rgb(36, 48, 63);
+    position: relative;
+
+}
+
+
+#p2 {
+    color: white;
+    position: absolute;
+
+    top: 25px;
+    left: 210px;
+}
+
+#p3 {
+    color: white;
+
+    position: absolute;
+    top: 25px;
+    left: 290px;
+}
+
+#p4 {
+    color: white;
+
+    position: absolute;
+    top: 25px;
+    left: 360px;
+}
+
+#p5 {
+    color: white;
+
+    position: absolute;
+    top: 25px;
+    left: 460px;
+}
+
+#p6 {
+    color: white;
+
+    position: absolute;
+    top: 25px;
+    left: 590px;
+}
+
+#b1 {
+    width: 110px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    left: 800px;
+    background-color: rgb(45, 157, 223);
+    color: white;
+    border-radius: 5px;
+}
+
+#i2 {
+    position: absolute;
+    top: 10px;
+    left: 950px;
+
+}
+
+#tile1 {
+    width: 1200px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    background-image: url("./images/farzi.jpg");
+}
+
+#h01 {
+    padding-left: 100px;
+    padding-top: 100px;
+    color: white;
+}
+
+#h02 {
+    padding-left: 100px;
+    padding-top: 5px;
+    color: white;
+}
+
+#b2 {
+    width: 200px;
+    height: 40px;
+    position: absolute;
+
+    top: 250px;
+    left: 100px;
+    background-color: rgb(88, 183, 217);
+    color: white;
+    border-radius: 5px;
+}
+
+#tile2 {
+    width: 320px;
+    height: 320px;
+    background-color: rgb(89, 200, 29);
+    position: absolute;
+    /* margin-left: 2px; */
+    /* margin-bottom: 2px; */
+    top: 75px;
+    left: 1200px;
+    background-image: url("./images/varisu.jpg");
+}
+
+#tile3 {
+    width: 320px;
+    height: 180px;
+    background-color: rgb(100, 32, 209);
+    position: absolute;
+    top: 395px;
+    left: 1200px;
+
+    background-image: url("./images/dhrishyam.jpg");
+}
+
+#tile4 {
+    width: 1520px;
+    height: 500px;
+    background-color: rgb(206, 43, 43);
+    position: absolute;
+    position: relative;
+    margin-top: 500px;
+    background-image: url("./images/The-Kashmir-Files-Poster-1.jpg");
+
+}
+
+#tile4h1 {
+    color: white;
+    padding-left: 1000px;
+    padding-top: 120px;
+}
+
+#tile4h2 {
+    color: white;
+    padding-left: 1000px;
+    padding-top: 10px;
+}
+
+#tile4b1 {
+    width: 300px;
+    height: 60px;
+    border-radius: 10px;
+    position: absolute;
+    color: white;
+    background-color: rgb(45, 157, 223);
+    left: 1000px;
+}
+
+#tile5 {
+    width: 760px;
+    height: 600px;
+    background-color: rgb(236, 243, 243);
+    color: rgb(17, 1, 1);
+    position: absolute;
+}
+
+#tile5h1 {
+    text-align: left;
+    padding-left: 50px;
+}
+
+#tile5h2 {
+    text-align: left;
+    padding-left: 50px;
+}
+#tile6{
+    width: 760px;
+    height: 600px;
+    background-color: rgb(243, 245, 243);
+    position: absolute;
+    left: 760px;
+    justify-content:space-around;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.tile6{
+    width: 150px;
+    height: 100px;
+    background-color: rgb(88, 160, 243);
+    border: 2px solid black;
+    top: 30px;
+    border-radius: 5px;
+}
